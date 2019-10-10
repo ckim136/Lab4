@@ -7,8 +7,9 @@
 #include "animal.hpp"
 
 class bird: public animal{
-public:
+protected:
     double heightCoordinate;
+public:
     bird(){
         this->age = 0;
         this->locationX = 0;
@@ -17,7 +18,11 @@ public:
 
     }
     bird(int age, double x, double y, double h){}
-    void move(double x, double y, double h){}
+    void move(double x, double y, double h){
+        this->locationX = x;
+        this-> locationY = y;
+        this -> heightCoordinate = h;
+    }
     bird(const bird& b){}
     ~bird(){}
     void sleep() override { cout << "The bird is sleeping"<< endl;}

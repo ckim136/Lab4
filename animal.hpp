@@ -9,13 +9,13 @@
 using  namespace std;
 
 class animal{
-public:
-
+protected:
     int age;
     static long ID;
     bool life;
     double locationX;
     double locationY;
+public:
     animal(){
         this->life = true;
         this -> age = 0;
@@ -31,10 +31,11 @@ public:
 
     }
 
-    virtual void move(double x, double y){
-        this ->locationX = x;
-        this -> locationY = y;
-    }
+    virtual void move() = 0;
+//    (double x, double y){
+//        this ->locationX = x;
+//        this -> locationY = y;
+//    }
     animal(const animal& a){}
 
     virtual ~animal(){}
@@ -43,7 +44,9 @@ public:
     void setAlive(bool life){this->life = life;}
     friend ostream&operator<< (ostream& os, const animal& animal);
 
-
+    double getLocationX(){return locationX;}
+    double getLocationY(){return locationY;}
+    bool getLifeStatus(){return life;}
 
 
 
