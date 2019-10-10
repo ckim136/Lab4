@@ -3,3 +3,7 @@
 //
 
 #include "bird.hpp"
+
+ostream &operator<<(ostream &os, const bird &animal) {
+    return os;
+}
