@@ -8,3 +8,8 @@ ostream &operator<<(ostream &os, const animal &animal) {
     os << "overloaded << operator"<< endl;
     return os;
 }
+char animal::counter = 'A';
+
+
+
+
