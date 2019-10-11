@@ -13,27 +13,19 @@ public:
         this->age= 0;
         this -> locationX = 0;
         this -> locationY = 0;
+        cout << "default constructor for canine "<< endl;
     }
-    canine(int age, double x, double y){}
-    void move(double x, double y){
-        this->locationX = x;
-        this -> locationY = y;
+    canine(int age, double x, double y){
+        cout << "3 params constructor for canine"<< endl;
     }
-    canine(const canine& c){}
-    ~canine(){}
+    void move(double x, double y, double h = 0) override;
+    canine(const canine& c) : animal(c) {
+        cout << "copy constructor for canine" << endl;
+    }
+    ~canine() override{cout << "destructor for canine" << endl;}
     void sleep() override {cout << "The canine is sleeping"<< endl;}
     void eat() override  {cout << "The canine is eating"<< endl;}
-    void hunt(animal* a){
-        if (a->getLocationX()- this->locationX  == abs(1)&&
-                a->getLocationY() - this->locationY == abs(1)){
-            a->setAlive(false);
-        }
-        if(a->getLifeStatus()){
-            cout << "The hunt was not successful"<< endl;
-        }else{
-            cout << "The hunt was successful" << endl;
-        }
-    }
+    void hunt(animal* a);
 friend ostream& operator << (ostream& os, const canine& canine);
 };
 

@@ -4,11 +4,20 @@
 
 #include "animal.hpp"
 
-ostream &operator<<(ostream &os, const animal &animal) {
-    os << "overloaded << operator"<< endl;
+long animal::counter = 0;
+
+ostream &operator<<(ostream &os, const animal &a) {
+    os << "animal insertion operator" << endl;
     return os;
 }
-char animal::counter = 'A';
+
+void animal::move(double x, double y, double h) {
+    cout << "The animal moved by " <<x<<", " <<y <<endl;
+    this->setLocationX(x);
+    this->setLocationY(y);
+    this->setLocationY(h);
+}
+
 
 
 
