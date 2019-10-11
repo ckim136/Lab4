@@ -18,17 +18,14 @@ cout << endl;
 a->move(500, 300);
 b->move(500, 300, 100 );
 c-> move(501, 299);
-
 cout << endl;
 
 cout << "The canine is hunting bird" <<endl;
 ((canine*)c)->hunt(b); //fail
-
 cout << endl;
 
 cout << "The canine is hunting animal" <<endl;
 ((canine*)c)->hunt(a); //success
-
 cout <<endl;
 
 a->eat();
@@ -40,6 +37,17 @@ a->sleep();
 b->sleep();
 c->sleep();
 cout <<endl;
+
+
+cout << *a;
+cout << *(bird*)b;
+cout << *(canine*)c;
+cout << endl;
+
+delete a;
+delete b;
+delete c;
+
 
 return 0;
 }
