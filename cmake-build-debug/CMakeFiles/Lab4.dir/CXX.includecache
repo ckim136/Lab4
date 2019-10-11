@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/cygdrive/c/Users/kimem/CLionProjects/Lab4/animal.hpp
+iostream
+-
+
+/cygdrive/c/Users/kimem/CLionProjects/Lab4/bird.hpp
+animal.hpp
+/cygdrive/c/Users/kimem/CLionProjects/Lab4/animal.hpp
+
+/cygdrive/c/Users/kimem/CLionProjects/Lab4/canine.hpp
+animal.hpp
+/cygdrive/c/Users/kimem/CLionProjects/Lab4/animal.hpp
+
+/cygdrive/c/Users/kimem/CLionProjects/Lab4/inheritance.cpp
+inheritance.hpp
+/cygdrive/c/Users/kimem/CLionProjects/Lab4/inheritance.hpp
+animal.hpp
+/cygdrive/c/Users/kimem/CLionProjects/Lab4/animal.hpp
+bird.hpp
+/cygdrive/c/Users/kimem/CLionProjects/Lab4/bird.hpp
+canine.hpp
+/cygdrive/c/Users/kimem/CLionProjects/Lab4/canine.hpp
+
+/cygdrive/c/Users/kimem/CLionProjects/Lab4/inheritance.hpp
+

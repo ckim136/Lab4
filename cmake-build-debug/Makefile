@@ -123,6 +123,114 @@ Lab4/fast:
 	$(MAKE) -f CMakeFiles/Lab4.dir/build.make CMakeFiles/Lab4.dir/build
 .PHONY : Lab4/fast
 
+animal.o: animal.cpp.o
+
+.PHONY : animal.o
+
+# target to build an object file
+animal.cpp.o:
+	$(MAKE) -f CMakeFiles/Lab4.dir/build.make CMakeFiles/Lab4.dir/animal.cpp.o
+.PHONY : animal.cpp.o
+
+animal.i: animal.cpp.i
+
+.PHONY : animal.i
+
+# target to preprocess a source file
+animal.cpp.i:
+	$(MAKE) -f CMakeFiles/Lab4.dir/build.make CMakeFiles/Lab4.dir/animal.cpp.i
+.PHONY : animal.cpp.i
+
+animal.s: animal.cpp.s
+
+.PHONY : animal.s
+
+# target to generate assembly for a file
+animal.cpp.s:
+	$(MAKE) -f CMakeFiles/Lab4.dir/build.make CMakeFiles/Lab4.dir/animal.cpp.s
+.PHONY : animal.cpp.s
+
+bird.o: bird.cpp.o
+
+.PHONY : bird.o
+
+# target to build an object file
+bird.cpp.o:
+	$(MAKE) -f CMakeFiles/Lab4.dir/build.make CMakeFiles/Lab4.dir/bird.cpp.o
+.PHONY : bird.cpp.o
+
+bird.i: bird.cpp.i
+
+.PHONY : bird.i
+
+# target to preprocess a source file
+bird.cpp.i:
+	$(MAKE) -f CMakeFiles/Lab4.dir/build.make CMakeFiles/Lab4.dir/bird.cpp.i
+.PHONY : bird.cpp.i
+
+bird.s: bird.cpp.s
+
+.PHONY : bird.s
+
+# target to generate assembly for a file
+bird.cpp.s:
+	$(MAKE) -f CMakeFiles/Lab4.dir/build.make CMakeFiles/Lab4.dir/bird.cpp.s
+.PHONY : bird.cpp.s
+
+canine.o: canine.cpp.o
+
+.PHONY : canine.o
+
+# target to build an object file
+canine.cpp.o:
+	$(MAKE) -f CMakeFiles/Lab4.dir/build.make CMakeFiles/Lab4.dir/canine.cpp.o
+.PHONY : canine.cpp.o
+
+canine.i: canine.cpp.i
+
+.PHONY : canine.i
+
+# target to preprocess a source file
+canine.cpp.i:
+	$(MAKE) -f CMakeFiles/Lab4.dir/build.make CMakeFiles/Lab4.dir/canine.cpp.i
+.PHONY : canine.cpp.i
+
+canine.s: canine.cpp.s
+
+.PHONY : canine.s
+
+# target to generate assembly for a file
+canine.cpp.s:
+	$(MAKE) -f CMakeFiles/Lab4.dir/build.make CMakeFiles/Lab4.dir/canine.cpp.s
+.PHONY : canine.cpp.s
+
+inheritance.o: inheritance.cpp.o
+
+.PHONY : inheritance.o
+
+# target to build an object file
+inheritance.cpp.o:
+	$(MAKE) -f CMakeFiles/Lab4.dir/build.make CMakeFiles/Lab4.dir/inheritance.cpp.o
+.PHONY : inheritance.cpp.o
+
+inheritance.i: inheritance.cpp.i
+
+.PHONY : inheritance.i
+
+# target to preprocess a source file
+inheritance.cpp.i:
+	$(MAKE) -f CMakeFiles/Lab4.dir/build.make CMakeFiles/Lab4.dir/inheritance.cpp.i
+.PHONY : inheritance.cpp.i
+
+inheritance.s: inheritance.cpp.s
+
+.PHONY : inheritance.s
+
+# target to generate assembly for a file
+inheritance.cpp.s:
+	$(MAKE) -f CMakeFiles/Lab4.dir/build.make CMakeFiles/Lab4.dir/inheritance.cpp.s
+.PHONY : inheritance.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -159,6 +267,18 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... Lab4"
 	@echo "... edit_cache"
+	@echo "... animal.o"
+	@echo "... animal.i"
+	@echo "... animal.s"
+	@echo "... bird.o"
+	@echo "... bird.i"
+	@echo "... bird.s"
+	@echo "... canine.o"
+	@echo "... canine.i"
+	@echo "... canine.s"
+	@echo "... inheritance.o"
+	@echo "... inheritance.i"
+	@echo "... inheritance.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

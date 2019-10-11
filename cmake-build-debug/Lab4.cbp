@@ -80,6 +80,30 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/cygdrive/c/Users/kimem/CLionProjects/Lab4/animal.cpp">
+			<Option target="Lab4"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/kimem/CLionProjects/Lab4/animal.hpp">
+			<Option target="Lab4"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/kimem/CLionProjects/Lab4/bird.cpp">
+			<Option target="Lab4"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/kimem/CLionProjects/Lab4/bird.hpp">
+			<Option target="Lab4"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/kimem/CLionProjects/Lab4/canine.cpp">
+			<Option target="Lab4"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/kimem/CLionProjects/Lab4/canine.hpp">
+			<Option target="Lab4"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/kimem/CLionProjects/Lab4/inheritance.cpp">
+			<Option target="Lab4"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/kimem/CLionProjects/Lab4/inheritance.hpp">
+			<Option target="Lab4"/>
+		</Unit>
 		<Unit filename="/cygdrive/c/Users/kimem/CLionProjects/Lab4/main.cpp">
 			<Option target="Lab4"/>
 		</Unit>

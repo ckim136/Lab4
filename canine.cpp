@@ -6,7 +6,7 @@
 
 
 ostream &operator<<(ostream &os, const canine &canine) {
-    os<< "<< canine insertion operator"<< endl;
+    os<< "canine insertion operator"<< endl;
     return os;
 }
 
